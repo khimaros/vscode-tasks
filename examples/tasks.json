@@ -1,0 +1,18 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Emit Greeting",
+            "group": "build",
+            "type": "process",
+            "command": "/bin/echo",
+            "isBackground": false,
+            "options": {
+                "cwd": "/tmp"
+            },
+            "args": ["Hello,", "world!"],
+            "presentation": {},
+            "problemMatcher": {}
+        }
+    ]
+}

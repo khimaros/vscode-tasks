@@ -1,0 +1,29 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "cargo build",
+            "group": "build",
+            "type": "process",
+            "command": "cargo",
+            "isBackground": false,
+            "args": ["build"],
+            "presentation": {},
+            "problemMatcher": {}
+        },
+        {
+            "label": "cargo test",
+            "group": {
+                "kind": "test",
+                "isDefault": true
+            },
+            "type": "shell",
+            "command": "cargo",
+            "isBackground": false,
+            "options": {},
+            "args": ["test"],
+            "presentation": {},
+            "problemMatcher": {}
+        }
+    ]
+}
